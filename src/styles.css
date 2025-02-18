@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  background-color: #f8f9fa; /* Light gray background */
+}
+
+.nav-tabs .nav-link {
+  color: #a43232;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: #f8f9fa;
+  color: #000;
+  border-color: #dee2eb #dee2eb #fff;
+  border-radius: 5px;
+}
+
+.card {
+  border-radius: 10px;
+}
+
+.container {
+  max-width: 900px;
+}

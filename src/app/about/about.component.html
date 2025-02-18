@@ -1,0 +1,32 @@
+<section>
+  <div class="container my-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="card shadow p-4 text-center">
+          <h2 class="fw-bold">Abdulrahman's Portfolio</h2>
+          <p class="text-muted">
+            Welcome to my portfolio! I am a passionate junior Web and App Developer excited about front-end and back-end development tools such as
+            <strong>JavaScript, HTML, CSS, Mongoose, Express.js, Bootstrap, React.js, Angular.js, Firebase, Cordova, json.bin, React-native, ionic</strong> I have a sharp eye for design aesthetics and pay close attention to detail.
+          </p>
+
+          <h4 class="mt-4 text-primary" (click)="toggleTechnicalSkills()">Technical Skills ⬇</h4>
+          <ul class="list-group list-group-flush" *ngIf="showTechnicalSkills">
+            <li class="list-group-item">Vanilla JavaScript, HTML5, CSS3, Bootstrap</li>
+            <li class="list-group-item">Node.js, React.js, Express.js, Angular, Cordova</li>
+            <li class="list-group-item">MongoDB, SQL</li>
+            <li class="list-group-item">RESTful API Development and Integration</li>
+          </ul>
+
+          <h4 class="mt-4 text-success" (click)="toggleSoftSkills()">Soft Skills ⬇</h4>
+          <ul class="list-group list-group-flush" *ngIf="showSoftSkills">
+            <li class="list-group-item">Communication</li>
+            <li class="list-group-item">Problem-solving</li>
+            <li class="list-group-item">Adaptability</li>
+            <li class="list-group-item">Attention to Detail</li>
+            <li class="list-group-item">Time management</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
